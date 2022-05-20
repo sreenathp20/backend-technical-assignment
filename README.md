@@ -91,7 +91,7 @@ Your work will be evaluated primarily on:
 
 ## How to submit your work
 
-Fork this project on github. When you're finished, send the URL of your public repository to (mailto:mikolaj.debicki@digikraft.io) and the URL of your running instance of the API. *Consider using `.gitignore` to avoid putting any deployment credentials or API key in your public repository.*
+Fork this project on github. When you're finished, send the URL of your public repository to <mikolaj.debicki@digikraft.io> and the URL of your running instance of the API. *Consider using `.gitignore` to avoid putting any deployment credentials or API key in your public repository.*
 
 ## Extra credit
 
