@@ -1,7 +1,7 @@
 const express = require('express')
 const config = require('./config.js')
 const app = express()
-const port = config.PORT
+const port = process.env.PORT || config.PORT
 const router = require('./router');
 
 var mongoUtil = require( './mongoUtil' );
