@@ -7,7 +7,10 @@ const router = require('./router');
 var mongoUtil = require( './mongoUtil' );
 
 mongoUtil.connectToServer( function( err, client ) {
-  if (err) console.log(err);
+  if (err) {
+    console.log(err);
+    console.log("log here!!!!!!!")
+  } 
   // start the rest of your app here
 } );
 
