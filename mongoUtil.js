@@ -10,6 +10,7 @@ module.exports = {
   connectToServer: function( callback ) {
     MongoClient.connect( url,  { useNewUrlParser: true }, function( err, client ) {
       console.log(err, " err")
+      console.log(client, " client")
       console.log(url)
       _db  = client.db('mydb');
       return callback( err );
