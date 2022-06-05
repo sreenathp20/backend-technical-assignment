@@ -2,7 +2,7 @@ const MongoClient = require( 'mongodb' ).MongoClient;
 var config = require('./config.js');
 
 var url = `mongodb+srv://${config.USERNAME}:${config.PASSWORD}@${config.HOST}/?retryWrites=true&w=majority`;
-
+url = process.env.MONGODB_URI;
 var _db;
 
 module.exports = {
